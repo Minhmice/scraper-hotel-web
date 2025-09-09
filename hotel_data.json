@@ -1,0 +1,352 @@
+{
+  "hotel": {
+    "id": "HOTEL_001",
+    "name": "Grand Palace Hotel & Resort",
+    "brand": "Luxury Collection",
+    "category": "5-star",
+    "description": "A luxurious 5-star hotel offering world-class amenities and exceptional service in the heart of the city. Experience unparalleled comfort and elegance with stunning city views and premium facilities.",
+    "shortDescription": "Luxury 5-star hotel with city views and premium amenities",
+    "status": "active",
+    "isActive": true,
+    "isVerified": true,
+    "verificationDate": "2024-01-15T10:30:00Z",
+    
+    "contact": {
+      "phone": {
+        "primary": "+1-555-0123",
+        "secondary": "+1-555-0124",
+        "reservations": "+1-555-0125",
+        "concierge": "+1-555-0126"
+      },
+      "email": {
+        "general": "info@grandpalacehotel.com",
+        "reservations": "reservations@grandpalacehotel.com",
+        "concierge": "concierge@grandpalacehotel.com",
+        "groupSales": "groups@grandpalacehotel.com"
+      },
+      "website": "https://www.grandpalacehotel.com",
+      "socialMedia": {
+        "facebook": "https://facebook.com/grandpalacehotel",
+        "instagram": "https://instagram.com/grandpalacehotel",
+        "twitter": "https://twitter.com/grandpalacehotel",
+        "linkedin": "https://linkedin.com/company/grandpalacehotel"
+      }
+    },
+    
+    "location": {
+      "address": {
+        "street": "123 Grand Avenue",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "United States",
+        "countryCode": "US"
+      },
+      "coordinates": {
+        "latitude": 40.7589,
+        "longitude": -73.9851,
+        "accuracy": "high"
+      },
+      "neighborhood": "Manhattan",
+      "district": "Midtown",
+      "landmarks": [
+        "Times Square - 0.5 miles",
+        "Central Park - 1.2 miles",
+        "Broadway Theater District - 0.3 miles"
+      ],
+      "airportDistance": {
+        "JFK": "18 miles",
+        "LGA": "8 miles",
+        "EWR": "16 miles"
+      }
+    },
+    
+    "amenities": {
+      "general": [
+        "Free WiFi",
+        "24-hour front desk",
+        "Concierge service",
+        "Valet parking",
+        "Business center",
+        "Fitness center",
+        "Spa services",
+        "Room service",
+        "Laundry service",
+        "Currency exchange",
+        "ATM",
+        "Gift shop",
+        "Tour desk",
+        "Airport shuttle",
+        "Pet-friendly"
+      ],
+      "dining": [
+        "Fine dining restaurant",
+        "Casual café",
+        "Rooftop bar",
+        "Coffee shop",
+        "Room service",
+        "Poolside bar",
+        "Wine bar"
+      ],
+      "recreation": [
+        "Swimming pool",
+        "Spa & wellness center",
+        "Fitness center",
+        "Tennis court",
+        "Golf course (nearby)",
+        "Jogging track",
+        "Yoga classes"
+      ],
+      "business": [
+        "Meeting rooms",
+        "Conference facilities",
+        "Business center",
+        "Audio-visual equipment",
+        "High-speed internet",
+        "Secretarial services"
+      ],
+      "accessibility": [
+        "Wheelchair accessible",
+        "Elevator access",
+        "Accessible parking",
+        "Braille signage",
+        "Hearing impaired services",
+        "Visual impaired services"
+      ]
+    },
+    
+    "rooms": {
+      "totalRooms": 450,
+      "roomTypes": [
+        {
+          "id": "DELUXE_KING",
+          "name": "Deluxe King Room",
+          "description": "Spacious room with king-size bed and city views",
+          "size": "350 sq ft",
+          "maxOccupancy": 2,
+          "bedConfiguration": "1 King Bed",
+          "amenities": [
+            "City view",
+            "Mini bar",
+            "Coffee maker",
+            "Flat-screen TV",
+            "Work desk",
+            "Safe",
+            "Iron & ironing board"
+          ],
+          "pricing": {
+            "baseRate": 299,
+            "currency": "USD",
+            "taxIncluded": false
+          }
+        },
+        {
+          "id": "SUITE_PRESIDENTIAL",
+          "name": "Presidential Suite",
+          "description": "Luxurious suite with separate living area and panoramic city views",
+          "size": "1200 sq ft",
+          "maxOccupancy": 4,
+          "bedConfiguration": "1 King Bed + Sofa Bed",
+          "amenities": [
+            "Panoramic city view",
+            "Separate living room",
+            "Dining area",
+            "Kitchenette",
+            "Mini bar",
+            "Multiple flat-screen TVs",
+            "Work desk",
+            "Safe",
+            "Iron & ironing board",
+            "Butler service"
+          ],
+          "pricing": {
+            "baseRate": 899,
+            "currency": "USD",
+            "taxIncluded": false
+          }
+        },
+        {
+          "id": "FAMILY_QUAD",
+          "name": "Family Quad Room",
+          "description": "Perfect for families with two queen beds",
+          "size": "400 sq ft",
+          "maxOccupancy": 4,
+          "bedConfiguration": "2 Queen Beds",
+          "amenities": [
+            "City view",
+            "Mini bar",
+            "Coffee maker",
+            "Flat-screen TV",
+            "Work desk",
+            "Safe",
+            "Iron & ironing board",
+            "Crib available"
+          ],
+          "pricing": {
+            "baseRate": 349,
+            "currency": "USD",
+            "taxIncluded": false
+          }
+        }
+      ]
+    },
+    
+    "dining": [
+      {
+        "id": "RESTAURANT_001",
+        "name": "The Grand Dining Room",
+        "type": "Fine Dining",
+        "cuisine": "International",
+        "description": "Elegant fine dining restaurant featuring international cuisine",
+        "hours": {
+          "breakfast": "06:30-10:30",
+          "lunch": "12:00-15:00",
+          "dinner": "18:00-22:30"
+        },
+        "dressCode": "Smart casual",
+        "reservationsRequired": true,
+        "capacity": 120,
+        "features": ["Wine list", "Live music", "Private dining"]
+      },
+      {
+        "id": "CAFE_001",
+        "name": "Garden Café",
+        "type": "Casual Dining",
+        "cuisine": "American",
+        "description": "Relaxed café serving breakfast, lunch, and light meals",
+        "hours": {
+          "breakfast": "06:00-11:00",
+          "lunch": "11:00-16:00",
+          "dinner": "16:00-21:00"
+        },
+        "dressCode": "Casual",
+        "reservationsRequired": false,
+        "capacity": 80,
+        "features": ["Outdoor seating", "Takeout available"]
+      }
+    ],
+    
+    "policies": {
+      "checkIn": {
+        "time": "15:00",
+        "earlyCheckIn": "Available upon request",
+        "lateCheckIn": "24-hour front desk"
+      },
+      "checkOut": {
+        "time": "11:00",
+        "lateCheckOut": "Available upon request (additional fee)"
+      },
+      "cancellation": {
+        "freeCancellation": "48 hours before arrival",
+        "refundPolicy": "Full refund if cancelled within policy",
+        "noShowPolicy": "Charged for first night"
+      },
+      "petPolicy": {
+        "petsAllowed": true,
+        "petFee": 50,
+        "petFeeType": "per night",
+        "petWeightLimit": "50 lbs",
+        "petTypes": ["Dogs", "Cats"]
+      },
+      "ageRestrictions": {
+        "minimumAge": 18,
+        "childrenPolicy": "Children under 12 stay free with parents"
+      },
+      "smokingPolicy": "Non-smoking property (designated smoking areas available)"
+    },
+    
+    "reviews": {
+      "overallRating": 4.7,
+      "totalReviews": 2847,
+      "ratingBreakdown": {
+        "5": 1890,
+        "4": 623,
+        "3": 234,
+        "2": 67,
+        "1": 33
+      },
+      "recentReviews": [
+        {
+          "id": "REV_001",
+          "rating": 5,
+          "title": "Exceptional service and beautiful rooms",
+          "review": "The staff was incredibly helpful and the room was spotless. The view from our room was breathtaking. Highly recommend!",
+          "author": "Sarah M.",
+          "date": "2024-01-10T14:30:00Z",
+          "verified": true
+        },
+        {
+          "id": "REV_002",
+          "rating": 4,
+          "title": "Great location and amenities",
+          "review": "Perfect location in the heart of the city. The pool and spa were excellent. Only minor issue was the slow elevator during peak hours.",
+          "author": "Michael R.",
+          "date": "2024-01-08T09:15:00Z",
+          "verified": true
+        }
+      ]
+    }
+
+    },
+    
+    "languages": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Chinese",
+      "Arabic"
+    ],
+    
+    "paymentMethods": [
+      "Visa",
+      "Mastercard",
+      "American Express",
+      "Discover",
+      "PayPal",
+      "Apple Pay",
+      "Google Pay",
+      "Cash",
+      "Traveler's checks"
+    ],
+    
+    "accessibility": {
+      "wheelchairAccessible": true,
+      "elevatorAccess": true,
+      "accessibleParking": true,
+      "accessibleRooms": 15,
+      "hearingImpairedServices": true,
+      "visualImpairedServices": true,
+      "brailleSignage": true
+    }
+    
+
+
+    },
+    
+    "seasonalInformation": {
+      "peakSeason": {
+        "months": ["June", "July", "August", "December"],
+        "description": "Summer and holiday season"
+      },
+      "offSeason": {
+        "months": ["January", "February", "March"],
+        "description": "Winter months"
+      },
+      "specialEvents": [
+        "New Year's Eve Gala",
+        "Valentine's Day Special",
+        "Summer Pool Parties",
+        "Holiday Decorations"
+      ]
+    },
+    
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "version": "1.0",
+    "dataSource": "Hotel Management System",
+    "language": "en",
+    "timezone": "America/New_York"
+  }
+}

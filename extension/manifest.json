@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Hotel Scraper - Booking",
+  "version": "0.1.0",
+  "description": "Scrape hotel data from Booking.com pages and export JSON.",
+  
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.booking.com/*",
+    "https://booking.com/*"
+  ],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Hotel Scraper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.booking.com/hotel/*",
+        "https://www.booking.com/*/hotel/*"
+      ],
+      "js": ["content/booking.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
