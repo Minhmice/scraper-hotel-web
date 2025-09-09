@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Agoda Hotel Scraper",
+  "version": "0.1.0",
+  "description": "Scrape hotel details from Agoda hotel detail pages and output normalized JSON.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://www.agoda.com/*",
+    "https://agoda.com/*",
+    "file://*/*"
+  ],
+  "action": {
+    "default_title": "Agoda Scraper",
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.agoda.com/*",
+        "https://agoda.com/*",
+        "file://*/*"
+      ],
+      "js": ["content/agoda.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
+
+
